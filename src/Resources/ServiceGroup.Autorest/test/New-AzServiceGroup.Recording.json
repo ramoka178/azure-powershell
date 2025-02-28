@@ -1,0 +1,185 @@
+{
+  "New-AzServiceGroup+[NoContext]+New-AzServiceGroup -Name -DisplayName -ParentResourceId+$PUT+https://management.azure.com/providers/Microsoft.Management/serviceGroups/cmdletServiceGroup?api-version=2024-02-01-preview+1": {
+    "Request": {
+      "Method": "PUT",
+      "RequestUri": "https://management.azure.com/providers/Microsoft.Management/serviceGroups/cmdletServiceGroup?api-version=2024-02-01-preview",
+      "Content": "{\n  \"properties\": {\n    \"parent\": {\n      \"resourceId\": \"/providers/Microsoft.Management/serviceGroups/94430a9c-83e9-4f08-bbb0-64fccd0661fc\"\n    },\n    \"displayName\": \"cmdletServiceGroup\"\n  }\n}",
+      "isContentBase64": false,
+      "Headers": {
+      },
+      "ContentHeaders": {
+        "Content-Type": [ "application/json" ],
+        "Content-Length": [ "193" ]
+      }
+    },
+    "Response": {
+      "StatusCode": 201,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "Retry-After": [ "10" ],
+        "x-ms-operation-identifier": [ "" ],
+        "client-request-id": [ "0a01b40e-6bdb-4150-932a-b7b7b2016a43" ],
+        "Request-Id": [ "0a01b40e-6bdb-4150-932a-b7b7b2016a43" ],
+        "x-ba-restapi": [ "2.2025.0227.3" ],
+        "x-ms-request-id": [ "northeurope:0a01b40e-6bdb-4150-932a-b7b7b2016a43" ],
+        "Azure-AsyncOperation": [ "https://api-dogfood.resources.windows-int.net/providers/Microsoft.Management/operationResults/create/asyncOperation/status/serviceGroups/cmdletServiceGroup?api-version=2024-02-01-preview\u0026t=638763636169324036\u0026c=MIIHmjCCBoKgAwIBAgITOgSvARANFC6KP8WWWgAEBK8BEDANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSU5GUkEgQ0EgMDEwHhcNMjUwMTIyMDA1NjEzWhcNMjUwNzIxMDA1NjEzWjA1MTMwMQYDVQQDEyphc3luY29wZXJhdGlvbnNpZ25pbmcubWFuYWdlbWVudC5henVyZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDeuiUlYjx7rGgro8dGR-KafJNO0dUrI6JdHFKHcf9dQkkr6OEs6cr2QB9XzfY_3v3I-86AHL1rZlL7MGYOYGcz7QZzoDlXCxD7mFUUSjOe-1FVYtTfdKQ_-kb5YTCe-hZzd-gTYWE4RmeYU-LFXJu6SGuCkjvnl1OYBfqWyconBLmMRP18j7mt0RI-AEhh5HBDeQ838vYTrzjRaOysiW9SHo1U17lwtuQfU-iyP-ukVP2OGSANHL9l3IZr3G2HjfnHuFRmXZSH2TY4QhBnICm-l7rm2ik2PTlbQWDQKIOzhOB-r9cU27_nlklbdfhnvaaTK9zSB2q-akQzQMQJF7AxAgMBAAGjggSSMIIEjjAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMBMAoGCCsGAQUFBwMCMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCIaQ4w2E1bR4hPGLPoWb3RbOnRKBYIX5kUuFrJk0AgFkAgEHMIIB2gYIKwYBBQUHAQEEggHMMIIByDBmBggrBgEFBQcwAoZaaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NlcnRzL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMS5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDIuYW1lLmdibC9haWEvQlkyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMElORlJBJTIwQ0ElMjAwMSg0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwzLmFtZS5nYmwvYWlhL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsNC5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDAdBgNVHQ4EFgQUDHneM4YFp48GH-L4kMPDKDQi6kcwDgYDVR0PAQH_BAQDAgWgMIIBNQYDVR0fBIIBLDCCASgwggEkoIIBIKCCARyGQmh0dHA6Ly9jcmwubWljcm9zb2Z0LmNvbS9wa2lpbmZyYS9DUkwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDEuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDIuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDMuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDQuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybDCBnQYDVR0gBIGVMIGSMAwGCisGAQQBgjd7AQEwZgYKKwYBBAGCN3sCAjBYMFYGCCsGAQUFBwICMEoeSAAzADMAZQAwADEAOQAyADEALQA0AGQANgA0AC0ANABmADgAYwAtAGEAMAA1ADUALQA1AGIAZABhAGYAZgBkADUAZQAzADMAZDAMBgorBgEEAYI3ewMCMAwGCisGAQQBgjd7BAIwHwYDVR0jBBgwFoAU5dmbZ_z47Lq78MConYpXiLnfPmMwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUAA4IBAQCOmPXg6PgTuPU85QRZQADcHJx5Z37KKKZdr8nagi-_cIgZQZ2Hflm0ByWDlHqp1sHGB2u_Zi7IXMFGCogCso-dy56CIu38ZVhLkRPcNadmJeRSUneP0r5yzuXADNCERMSEdk-MVAZ12JlcMZEh8woAy_uAR2Ofl_ii4ywfEaWo3uEfyDvMl31ETC3xShayBpTpzyE2WT0_AJvpY8RcxdgjN6g2jXUF7WeBu2GoKzbmXuyy_kikiQ_-tPBf4c_5UxyxIzdoqYgOJZwwVmuJ-6VAWBK5wuJ-ybve37Vo6kDUY3SHlQgBrMAqWVGcZGkRd3-Hk_QETXx8G_tF6TXksE7W\u0026s=Rv9QiNjZD5ird9Q4kJ7Dgy1OrsXdOi8I8Z4CdHN97s1Yz2A4jme9MBVonfc-lqL8jrKPZsfdwHIZXNJfYNqfBh6mrPkHI5LpVX4ZBbSIhAqvwPBcxXil8TV2g-oapVkmNhhbGuuqUJHsCZoxy9NfVbivWpszNFLiIfUaNr3b7Tl0Q8pYfXKlJGLDnhdSrUgHbOSxGOeHmW-jJTA82Wk4uKIdL4woCPMMNl_kdy58Bv6vzs9ADFErr84n6dZoe4ozZiOv8aMAxtaKc_KlOZpZVPVr8Cf5b5xY4-PoNoAJ4wPEP6u7xIwnIVd_pr0ccEJdnNVK68QFYdCeKWhMr5GblA\u0026h=ctFeXYsS8QzLyQR8QG88DfGiXG8vDejyLqRnG4_St5M" ],
+        "x-ms-ratelimit-remaining-tenant-writes": [ "799" ],
+        "x-ms-correlation-request-id": [ "0a01b40e-6bdb-4150-932a-b7b7b2016a43" ],
+        "x-ms-routing-request-id": [ "NORTHEUROPE:20250228T182016Z:0a01b40e-6bdb-4150-932a-b7b7b2016a43" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 276FAF72614545F984A57CB1A9C5B85E Ref B: CO6AA3150217023 Ref C: 2025-02-28T18:20:09Z" ],
+        "Date": [ "Fri, 28 Feb 2025 18:20:16 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "337" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/providers/Microsoft.Management/serviceGroups/cmdletServiceGroup\",\"type\":\"Microsoft.Management/serviceGroups\",\"name\":\"cmdletServiceGroup\",\"properties\":{\"displayName\":\"cmdletServiceGroup\",\"parent\":{\"resourceId\":\"/providers/Microsoft.Management/serviceGroups/94430a9c-83e9-4f08-bbb0-64fccd0661fc\"},\"provisioningState\":\"NotStarted\"}}",
+      "isContentBase64": false
+    }
+  },
+  "New-AzServiceGroup+[NoContext]+New-AzServiceGroup -Name -DisplayName -ParentResourceId+$GET+https://api-dogfood.resources.windows-int.net/providers/Microsoft.Management/operationResults/create/asyncOperation/status/serviceGroups/cmdletServiceGroup?api-version=2024-02-01-preview\u0026t=638763636169324036\u0026c=MIIHmjCCBoKgAwIBAgITOgSvARANFC6KP8WWWgAEBK8BEDANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSU5GUkEgQ0EgMDEwHhcNMjUwMTIyMDA1NjEzWhcNMjUwNzIxMDA1NjEzWjA1MTMwMQYDVQQDEyphc3luY29wZXJhdGlvbnNpZ25pbmcubWFuYWdlbWVudC5henVyZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDeuiUlYjx7rGgro8dGR-KafJNO0dUrI6JdHFKHcf9dQkkr6OEs6cr2QB9XzfY_3v3I-86AHL1rZlL7MGYOYGcz7QZzoDlXCxD7mFUUSjOe-1FVYtTfdKQ_-kb5YTCe-hZzd-gTYWE4RmeYU-LFXJu6SGuCkjvnl1OYBfqWyconBLmMRP18j7mt0RI-AEhh5HBDeQ838vYTrzjRaOysiW9SHo1U17lwtuQfU-iyP-ukVP2OGSANHL9l3IZr3G2HjfnHuFRmXZSH2TY4QhBnICm-l7rm2ik2PTlbQWDQKIOzhOB-r9cU27_nlklbdfhnvaaTK9zSB2q-akQzQMQJF7AxAgMBAAGjggSSMIIEjjAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMBMAoGCCsGAQUFBwMCMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCIaQ4w2E1bR4hPGLPoWb3RbOnRKBYIX5kUuFrJk0AgFkAgEHMIIB2gYIKwYBBQUHAQEEggHMMIIByDBmBggrBgEFBQcwAoZaaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NlcnRzL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMS5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDIuYW1lLmdibC9haWEvQlkyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMElORlJBJTIwQ0ElMjAwMSg0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwzLmFtZS5nYmwvYWlhL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsNC5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDAdBgNVHQ4EFgQUDHneM4YFp48GH-L4kMPDKDQi6kcwDgYDVR0PAQH_BAQDAgWgMIIBNQYDVR0fBIIBLDCCASgwggEkoIIBIKCCARyGQmh0dHA6Ly9jcmwubWljcm9zb2Z0LmNvbS9wa2lpbmZyYS9DUkwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDEuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDIuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDMuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDQuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybDCBnQYDVR0gBIGVMIGSMAwGCisGAQQBgjd7AQEwZgYKKwYBBAGCN3sCAjBYMFYGCCsGAQUFBwICMEoeSAAzADMAZQAwADEAOQAyADEALQA0AGQANgA0AC0ANABmADgAYwAtAGEAMAA1ADUALQA1AGIAZABhAGYAZgBkADUAZQAzADMAZDAMBgorBgEEAYI3ewMCMAwGCisGAQQBgjd7BAIwHwYDVR0jBBgwFoAU5dmbZ_z47Lq78MConYpXiLnfPmMwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUAA4IBAQCOmPXg6PgTuPU85QRZQADcHJx5Z37KKKZdr8nagi-_cIgZQZ2Hflm0ByWDlHqp1sHGB2u_Zi7IXMFGCogCso-dy56CIu38ZVhLkRPcNadmJeRSUneP0r5yzuXADNCERMSEdk-MVAZ12JlcMZEh8woAy_uAR2Ofl_ii4ywfEaWo3uEfyDvMl31ETC3xShayBpTpzyE2WT0_AJvpY8RcxdgjN6g2jXUF7WeBu2GoKzbmXuyy_kikiQ_-tPBf4c_5UxyxIzdoqYgOJZwwVmuJ-6VAWBK5wuJ-ybve37Vo6kDUY3SHlQgBrMAqWVGcZGkRd3-Hk_QETXx8G_tF6TXksE7W\u0026s=Rv9QiNjZD5ird9Q4kJ7Dgy1OrsXdOi8I8Z4CdHN97s1Yz2A4jme9MBVonfc-lqL8jrKPZsfdwHIZXNJfYNqfBh6mrPkHI5LpVX4ZBbSIhAqvwPBcxXil8TV2g-oapVkmNhhbGuuqUJHsCZoxy9NfVbivWpszNFLiIfUaNr3b7Tl0Q8pYfXKlJGLDnhdSrUgHbOSxGOeHmW-jJTA82Wk4uKIdL4woCPMMNl_kdy58Bv6vzs9ADFErr84n6dZoe4ozZiOv8aMAxtaKc_KlOZpZVPVr8Cf5b5xY4-PoNoAJ4wPEP6u7xIwnIVd_pr0ccEJdnNVK68QFYdCeKWhMr5GblA\u0026h=ctFeXYsS8QzLyQR8QG88DfGiXG8vDejyLqRnG4_St5M+2": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://api-dogfood.resources.windows-int.net/providers/Microsoft.Management/operationResults/create/asyncOperation/status/serviceGroups/cmdletServiceGroup?api-version=2024-02-01-preview\u0026t=638763636169324036\u0026c=MIIHmjCCBoKgAwIBAgITOgSvARANFC6KP8WWWgAEBK8BEDANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSU5GUkEgQ0EgMDEwHhcNMjUwMTIyMDA1NjEzWhcNMjUwNzIxMDA1NjEzWjA1MTMwMQYDVQQDEyphc3luY29wZXJhdGlvbnNpZ25pbmcubWFuYWdlbWVudC5henVyZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDeuiUlYjx7rGgro8dGR-KafJNO0dUrI6JdHFKHcf9dQkkr6OEs6cr2QB9XzfY_3v3I-86AHL1rZlL7MGYOYGcz7QZzoDlXCxD7mFUUSjOe-1FVYtTfdKQ_-kb5YTCe-hZzd-gTYWE4RmeYU-LFXJu6SGuCkjvnl1OYBfqWyconBLmMRP18j7mt0RI-AEhh5HBDeQ838vYTrzjRaOysiW9SHo1U17lwtuQfU-iyP-ukVP2OGSANHL9l3IZr3G2HjfnHuFRmXZSH2TY4QhBnICm-l7rm2ik2PTlbQWDQKIOzhOB-r9cU27_nlklbdfhnvaaTK9zSB2q-akQzQMQJF7AxAgMBAAGjggSSMIIEjjAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMBMAoGCCsGAQUFBwMCMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCIaQ4w2E1bR4hPGLPoWb3RbOnRKBYIX5kUuFrJk0AgFkAgEHMIIB2gYIKwYBBQUHAQEEggHMMIIByDBmBggrBgEFBQcwAoZaaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NlcnRzL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMS5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDIuYW1lLmdibC9haWEvQlkyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMElORlJBJTIwQ0ElMjAwMSg0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwzLmFtZS5nYmwvYWlhL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsNC5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDAdBgNVHQ4EFgQUDHneM4YFp48GH-L4kMPDKDQi6kcwDgYDVR0PAQH_BAQDAgWgMIIBNQYDVR0fBIIBLDCCASgwggEkoIIBIKCCARyGQmh0dHA6Ly9jcmwubWljcm9zb2Z0LmNvbS9wa2lpbmZyYS9DUkwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDEuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDIuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDMuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDQuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybDCBnQYDVR0gBIGVMIGSMAwGCisGAQQBgjd7AQEwZgYKKwYBBAGCN3sCAjBYMFYGCCsGAQUFBwICMEoeSAAzADMAZQAwADEAOQAyADEALQA0AGQANgA0AC0ANABmADgAYwAtAGEAMAA1ADUALQA1AGIAZABhAGYAZgBkADUAZQAzADMAZDAMBgorBgEEAYI3ewMCMAwGCisGAQQBgjd7BAIwHwYDVR0jBBgwFoAU5dmbZ_z47Lq78MConYpXiLnfPmMwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUAA4IBAQCOmPXg6PgTuPU85QRZQADcHJx5Z37KKKZdr8nagi-_cIgZQZ2Hflm0ByWDlHqp1sHGB2u_Zi7IXMFGCogCso-dy56CIu38ZVhLkRPcNadmJeRSUneP0r5yzuXADNCERMSEdk-MVAZ12JlcMZEh8woAy_uAR2Ofl_ii4ywfEaWo3uEfyDvMl31ETC3xShayBpTpzyE2WT0_AJvpY8RcxdgjN6g2jXUF7WeBu2GoKzbmXuyy_kikiQ_-tPBf4c_5UxyxIzdoqYgOJZwwVmuJ-6VAWBK5wuJ-ybve37Vo6kDUY3SHlQgBrMAqWVGcZGkRd3-Hk_QETXx8G_tF6TXksE7W\u0026s=Rv9QiNjZD5ird9Q4kJ7Dgy1OrsXdOi8I8Z4CdHN97s1Yz2A4jme9MBVonfc-lqL8jrKPZsfdwHIZXNJfYNqfBh6mrPkHI5LpVX4ZBbSIhAqvwPBcxXil8TV2g-oapVkmNhhbGuuqUJHsCZoxy9NfVbivWpszNFLiIfUaNr3b7Tl0Q8pYfXKlJGLDnhdSrUgHbOSxGOeHmW-jJTA82Wk4uKIdL4woCPMMNl_kdy58Bv6vzs9ADFErr84n6dZoe4ozZiOv8aMAxtaKc_KlOZpZVPVr8Cf5b5xY4-PoNoAJ4wPEP6u7xIwnIVd_pr0ccEJdnNVK68QFYdCeKWhMr5GblA\u0026h=ctFeXYsS8QzLyQR8QG88DfGiXG8vDejyLqRnG4_St5M",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "Authorization": [ "[Filtered]" ],
+        "x-ms-unique-id": [ "2" ],
+        "x-ms-client-request-id": [ "78b0d7be-6c81-4fbc-b5bd-9611861f0fda" ],
+        "CommandName": [ "New-AzServiceGroup" ],
+        "FullCommandName": [ "New-AzServiceGroup_CreateExpanded" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.24", "Az.ServiceGroup/0.1.0" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "Retry-After": [ "10" ],
+        "x-ms-operation-identifier": [ "" ],
+        "client-request-id": [ "db0a6d2a-ca1c-409c-b19f-0c71c4cc1b71" ],
+        "Request-Id": [ "db0a6d2a-ca1c-409c-b19f-0c71c4cc1b71" ],
+        "x-ba-restapi": [ "2.2025.0227.3" ],
+        "x-ms-request-id": [ "northeurope:db0a6d2a-ca1c-409c-b19f-0c71c4cc1b71" ],
+        "Azure-AsyncOperation": [ "https://api-dogfood.resources.windows-int.net/providers/Microsoft.Management/operationResults/create/asyncOperation/status/serviceGroups/cmdletServiceGroup?api-version=2024-02-01-preview\u0026t=638763636273699775\u0026c=MIIHmjCCBoKgAwIBAgITOgSvARANFC6KP8WWWgAEBK8BEDANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSU5GUkEgQ0EgMDEwHhcNMjUwMTIyMDA1NjEzWhcNMjUwNzIxMDA1NjEzWjA1MTMwMQYDVQQDEyphc3luY29wZXJhdGlvbnNpZ25pbmcubWFuYWdlbWVudC5henVyZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDeuiUlYjx7rGgro8dGR-KafJNO0dUrI6JdHFKHcf9dQkkr6OEs6cr2QB9XzfY_3v3I-86AHL1rZlL7MGYOYGcz7QZzoDlXCxD7mFUUSjOe-1FVYtTfdKQ_-kb5YTCe-hZzd-gTYWE4RmeYU-LFXJu6SGuCkjvnl1OYBfqWyconBLmMRP18j7mt0RI-AEhh5HBDeQ838vYTrzjRaOysiW9SHo1U17lwtuQfU-iyP-ukVP2OGSANHL9l3IZr3G2HjfnHuFRmXZSH2TY4QhBnICm-l7rm2ik2PTlbQWDQKIOzhOB-r9cU27_nlklbdfhnvaaTK9zSB2q-akQzQMQJF7AxAgMBAAGjggSSMIIEjjAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMBMAoGCCsGAQUFBwMCMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCIaQ4w2E1bR4hPGLPoWb3RbOnRKBYIX5kUuFrJk0AgFkAgEHMIIB2gYIKwYBBQUHAQEEggHMMIIByDBmBggrBgEFBQcwAoZaaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NlcnRzL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMS5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDIuYW1lLmdibC9haWEvQlkyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMElORlJBJTIwQ0ElMjAwMSg0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwzLmFtZS5nYmwvYWlhL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsNC5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDAdBgNVHQ4EFgQUDHneM4YFp48GH-L4kMPDKDQi6kcwDgYDVR0PAQH_BAQDAgWgMIIBNQYDVR0fBIIBLDCCASgwggEkoIIBIKCCARyGQmh0dHA6Ly9jcmwubWljcm9zb2Z0LmNvbS9wa2lpbmZyYS9DUkwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDEuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDIuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDMuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDQuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybDCBnQYDVR0gBIGVMIGSMAwGCisGAQQBgjd7AQEwZgYKKwYBBAGCN3sCAjBYMFYGCCsGAQUFBwICMEoeSAAzADMAZQAwADEAOQAyADEALQA0AGQANgA0AC0ANABmADgAYwAtAGEAMAA1ADUALQA1AGIAZABhAGYAZgBkADUAZQAzADMAZDAMBgorBgEEAYI3ewMCMAwGCisGAQQBgjd7BAIwHwYDVR0jBBgwFoAU5dmbZ_z47Lq78MConYpXiLnfPmMwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUAA4IBAQCOmPXg6PgTuPU85QRZQADcHJx5Z37KKKZdr8nagi-_cIgZQZ2Hflm0ByWDlHqp1sHGB2u_Zi7IXMFGCogCso-dy56CIu38ZVhLkRPcNadmJeRSUneP0r5yzuXADNCERMSEdk-MVAZ12JlcMZEh8woAy_uAR2Ofl_ii4ywfEaWo3uEfyDvMl31ETC3xShayBpTpzyE2WT0_AJvpY8RcxdgjN6g2jXUF7WeBu2GoKzbmXuyy_kikiQ_-tPBf4c_5UxyxIzdoqYgOJZwwVmuJ-6VAWBK5wuJ-ybve37Vo6kDUY3SHlQgBrMAqWVGcZGkRd3-Hk_QETXx8G_tF6TXksE7W\u0026s=OHoWbp8Hw46bpbKVcXYpjXv3F2JNmr_6HgxktMntfRkugOrx3pEDgvvFtI_X_YBKJD33_edxWzPTkUmY1hkGNWC5uiuQxKjwKY4Q5p18VhR6vGpEyB7yN2GOakgSHQsI-IZj3YEJ0a6ciLYmW604U_53uBkR6BmRS_acWDm3QpBy5jkBgGBw8TIuT-b1cpQCc2IXLtLI18pcKUPRMqSewGj25FAv7udiEvHyE5WztZqFdpZFIIQmbWCIPHf0UgDk6_OrqZuhJW0CPdS1Uu_UEuPHDfjjBmAgifSVydPj8F8crUXAZDUO6-vOvffmwE364VUQrsamJjqWDSwuBLesUA\u0026h=Yi7V1IZDUFdOeYx5OWBPlH4PQbQMd-xAUDt1XyLz-5A" ],
+        "x-ms-ratelimit-remaining-tenant-reads": [ "1099" ],
+        "x-ms-correlation-request-id": [ "db0a6d2a-ca1c-409c-b19f-0c71c4cc1b71" ],
+        "x-ms-routing-request-id": [ "NORTHEUROPE:20250228T182027Z:db0a6d2a-ca1c-409c-b19f-0c71c4cc1b71" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 8936A7E231174E90B1D67EC6A165FF1E Ref B: CO6AA3150217023 Ref C: 2025-02-28T18:20:27Z" ],
+        "Date": [ "Fri, 28 Feb 2025 18:20:26 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "166" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/providers/Microsoft.Management/operationResults/create/asyncOperation/status/serviceGroups/cmdletServiceGroup\",\"name\":\"cmdletServiceGroup\",\"status\":\"Running\"}",
+      "isContentBase64": false
+    }
+  },
+  "New-AzServiceGroup+[NoContext]+New-AzServiceGroup -Name -DisplayName -ParentResourceId+$GET+https://api-dogfood.resources.windows-int.net/providers/Microsoft.Management/operationResults/create/asyncOperation/status/serviceGroups/cmdletServiceGroup?api-version=2024-02-01-preview\u0026t=638763636273699775\u0026c=MIIHmjCCBoKgAwIBAgITOgSvARANFC6KP8WWWgAEBK8BEDANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSU5GUkEgQ0EgMDEwHhcNMjUwMTIyMDA1NjEzWhcNMjUwNzIxMDA1NjEzWjA1MTMwMQYDVQQDEyphc3luY29wZXJhdGlvbnNpZ25pbmcubWFuYWdlbWVudC5henVyZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDeuiUlYjx7rGgro8dGR-KafJNO0dUrI6JdHFKHcf9dQkkr6OEs6cr2QB9XzfY_3v3I-86AHL1rZlL7MGYOYGcz7QZzoDlXCxD7mFUUSjOe-1FVYtTfdKQ_-kb5YTCe-hZzd-gTYWE4RmeYU-LFXJu6SGuCkjvnl1OYBfqWyconBLmMRP18j7mt0RI-AEhh5HBDeQ838vYTrzjRaOysiW9SHo1U17lwtuQfU-iyP-ukVP2OGSANHL9l3IZr3G2HjfnHuFRmXZSH2TY4QhBnICm-l7rm2ik2PTlbQWDQKIOzhOB-r9cU27_nlklbdfhnvaaTK9zSB2q-akQzQMQJF7AxAgMBAAGjggSSMIIEjjAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMBMAoGCCsGAQUFBwMCMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCIaQ4w2E1bR4hPGLPoWb3RbOnRKBYIX5kUuFrJk0AgFkAgEHMIIB2gYIKwYBBQUHAQEEggHMMIIByDBmBggrBgEFBQcwAoZaaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NlcnRzL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMS5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDIuYW1lLmdibC9haWEvQlkyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMElORlJBJTIwQ0ElMjAwMSg0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwzLmFtZS5nYmwvYWlhL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsNC5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDAdBgNVHQ4EFgQUDHneM4YFp48GH-L4kMPDKDQi6kcwDgYDVR0PAQH_BAQDAgWgMIIBNQYDVR0fBIIBLDCCASgwggEkoIIBIKCCARyGQmh0dHA6Ly9jcmwubWljcm9zb2Z0LmNvbS9wa2lpbmZyYS9DUkwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDEuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDIuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDMuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDQuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybDCBnQYDVR0gBIGVMIGSMAwGCisGAQQBgjd7AQEwZgYKKwYBBAGCN3sCAjBYMFYGCCsGAQUFBwICMEoeSAAzADMAZQAwADEAOQAyADEALQA0AGQANgA0AC0ANABmADgAYwAtAGEAMAA1ADUALQA1AGIAZABhAGYAZgBkADUAZQAzADMAZDAMBgorBgEEAYI3ewMCMAwGCisGAQQBgjd7BAIwHwYDVR0jBBgwFoAU5dmbZ_z47Lq78MConYpXiLnfPmMwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUAA4IBAQCOmPXg6PgTuPU85QRZQADcHJx5Z37KKKZdr8nagi-_cIgZQZ2Hflm0ByWDlHqp1sHGB2u_Zi7IXMFGCogCso-dy56CIu38ZVhLkRPcNadmJeRSUneP0r5yzuXADNCERMSEdk-MVAZ12JlcMZEh8woAy_uAR2Ofl_ii4ywfEaWo3uEfyDvMl31ETC3xShayBpTpzyE2WT0_AJvpY8RcxdgjN6g2jXUF7WeBu2GoKzbmXuyy_kikiQ_-tPBf4c_5UxyxIzdoqYgOJZwwVmuJ-6VAWBK5wuJ-ybve37Vo6kDUY3SHlQgBrMAqWVGcZGkRd3-Hk_QETXx8G_tF6TXksE7W\u0026s=OHoWbp8Hw46bpbKVcXYpjXv3F2JNmr_6HgxktMntfRkugOrx3pEDgvvFtI_X_YBKJD33_edxWzPTkUmY1hkGNWC5uiuQxKjwKY4Q5p18VhR6vGpEyB7yN2GOakgSHQsI-IZj3YEJ0a6ciLYmW604U_53uBkR6BmRS_acWDm3QpBy5jkBgGBw8TIuT-b1cpQCc2IXLtLI18pcKUPRMqSewGj25FAv7udiEvHyE5WztZqFdpZFIIQmbWCIPHf0UgDk6_OrqZuhJW0CPdS1Uu_UEuPHDfjjBmAgifSVydPj8F8crUXAZDUO6-vOvffmwE364VUQrsamJjqWDSwuBLesUA\u0026h=Yi7V1IZDUFdOeYx5OWBPlH4PQbQMd-xAUDt1XyLz-5A+3": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://api-dogfood.resources.windows-int.net/providers/Microsoft.Management/operationResults/create/asyncOperation/status/serviceGroups/cmdletServiceGroup?api-version=2024-02-01-preview\u0026t=638763636273699775\u0026c=MIIHmjCCBoKgAwIBAgITOgSvARANFC6KP8WWWgAEBK8BEDANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSU5GUkEgQ0EgMDEwHhcNMjUwMTIyMDA1NjEzWhcNMjUwNzIxMDA1NjEzWjA1MTMwMQYDVQQDEyphc3luY29wZXJhdGlvbnNpZ25pbmcubWFuYWdlbWVudC5henVyZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDeuiUlYjx7rGgro8dGR-KafJNO0dUrI6JdHFKHcf9dQkkr6OEs6cr2QB9XzfY_3v3I-86AHL1rZlL7MGYOYGcz7QZzoDlXCxD7mFUUSjOe-1FVYtTfdKQ_-kb5YTCe-hZzd-gTYWE4RmeYU-LFXJu6SGuCkjvnl1OYBfqWyconBLmMRP18j7mt0RI-AEhh5HBDeQ838vYTrzjRaOysiW9SHo1U17lwtuQfU-iyP-ukVP2OGSANHL9l3IZr3G2HjfnHuFRmXZSH2TY4QhBnICm-l7rm2ik2PTlbQWDQKIOzhOB-r9cU27_nlklbdfhnvaaTK9zSB2q-akQzQMQJF7AxAgMBAAGjggSSMIIEjjAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMBMAoGCCsGAQUFBwMCMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCIaQ4w2E1bR4hPGLPoWb3RbOnRKBYIX5kUuFrJk0AgFkAgEHMIIB2gYIKwYBBQUHAQEEggHMMIIByDBmBggrBgEFBQcwAoZaaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NlcnRzL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMS5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDIuYW1lLmdibC9haWEvQlkyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMElORlJBJTIwQ0ElMjAwMSg0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwzLmFtZS5nYmwvYWlhL0JZMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJTkZSQSUyMENBJTIwMDEoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsNC5hbWUuZ2JsL2FpYS9CWTJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNydDAdBgNVHQ4EFgQUDHneM4YFp48GH-L4kMPDKDQi6kcwDgYDVR0PAQH_BAQDAgWgMIIBNQYDVR0fBIIBLDCCASgwggEkoIIBIKCCARyGQmh0dHA6Ly9jcmwubWljcm9zb2Z0LmNvbS9wa2lpbmZyYS9DUkwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDEuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDIuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDMuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybIY0aHR0cDovL2NybDQuYW1lLmdibC9jcmwvQU1FJTIwSU5GUkElMjBDQSUyMDAxKDQpLmNybDCBnQYDVR0gBIGVMIGSMAwGCisGAQQBgjd7AQEwZgYKKwYBBAGCN3sCAjBYMFYGCCsGAQUFBwICMEoeSAAzADMAZQAwADEAOQAyADEALQA0AGQANgA0AC0ANABmADgAYwAtAGEAMAA1ADUALQA1AGIAZABhAGYAZgBkADUAZQAzADMAZDAMBgorBgEEAYI3ewMCMAwGCisGAQQBgjd7BAIwHwYDVR0jBBgwFoAU5dmbZ_z47Lq78MConYpXiLnfPmMwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUAA4IBAQCOmPXg6PgTuPU85QRZQADcHJx5Z37KKKZdr8nagi-_cIgZQZ2Hflm0ByWDlHqp1sHGB2u_Zi7IXMFGCogCso-dy56CIu38ZVhLkRPcNadmJeRSUneP0r5yzuXADNCERMSEdk-MVAZ12JlcMZEh8woAy_uAR2Ofl_ii4ywfEaWo3uEfyDvMl31ETC3xShayBpTpzyE2WT0_AJvpY8RcxdgjN6g2jXUF7WeBu2GoKzbmXuyy_kikiQ_-tPBf4c_5UxyxIzdoqYgOJZwwVmuJ-6VAWBK5wuJ-ybve37Vo6kDUY3SHlQgBrMAqWVGcZGkRd3-Hk_QETXx8G_tF6TXksE7W\u0026s=OHoWbp8Hw46bpbKVcXYpjXv3F2JNmr_6HgxktMntfRkugOrx3pEDgvvFtI_X_YBKJD33_edxWzPTkUmY1hkGNWC5uiuQxKjwKY4Q5p18VhR6vGpEyB7yN2GOakgSHQsI-IZj3YEJ0a6ciLYmW604U_53uBkR6BmRS_acWDm3QpBy5jkBgGBw8TIuT-b1cpQCc2IXLtLI18pcKUPRMqSewGj25FAv7udiEvHyE5WztZqFdpZFIIQmbWCIPHf0UgDk6_OrqZuhJW0CPdS1Uu_UEuPHDfjjBmAgifSVydPj8F8crUXAZDUO6-vOvffmwE364VUQrsamJjqWDSwuBLesUA\u0026h=Yi7V1IZDUFdOeYx5OWBPlH4PQbQMd-xAUDt1XyLz-5A",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "Authorization": [ "[Filtered]" ],
+        "x-ms-unique-id": [ "3" ],
+        "x-ms-client-request-id": [ "78b0d7be-6c81-4fbc-b5bd-9611861f0fda" ],
+        "CommandName": [ "New-AzServiceGroup" ],
+        "FullCommandName": [ "New-AzServiceGroup_CreateExpanded" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.24", "Az.ServiceGroup/0.1.0" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-operation-identifier": [ "" ],
+        "client-request-id": [ "5d737e9d-8903-45f5-8270-a545eea283e2" ],
+        "Request-Id": [ "5d737e9d-8903-45f5-8270-a545eea283e2" ],
+        "x-ba-restapi": [ "2.2025.0227.3" ],
+        "x-ms-request-id": [ "centralus:5d737e9d-8903-45f5-8270-a545eea283e2" ],
+        "x-ms-ratelimit-remaining-tenant-reads": [ "1099" ],
+        "x-ms-correlation-request-id": [ "5d737e9d-8903-45f5-8270-a545eea283e2" ],
+        "x-ms-routing-request-id": [ "CENTRALUS:20250228T182039Z:5d737e9d-8903-45f5-8270-a545eea283e2" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 80EA73A4841D4954841336C3B12280B2 Ref B: CO6AA3150217023 Ref C: 2025-02-28T18:20:37Z" ],
+        "Date": [ "Fri, 28 Feb 2025 18:20:38 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "168" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/providers/Microsoft.Management/operationResults/create/asyncOperation/status/serviceGroups/cmdletServiceGroup\",\"name\":\"cmdletServiceGroup\",\"status\":\"Succeeded\"}",
+      "isContentBase64": false
+    }
+  },
+  "New-AzServiceGroup+[NoContext]+New-AzServiceGroup -Name -DisplayName -ParentResourceId+$GET+https://api-dogfood.resources.windows-int.net/providers/Microsoft.Management/serviceGroups/cmdletServiceGroup?api-version=2024-02-01-preview+4": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://api-dogfood.resources.windows-int.net/providers/Microsoft.Management/serviceGroups/cmdletServiceGroup?api-version=2024-02-01-preview",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "Authorization": [ "[Filtered]" ],
+        "x-ms-unique-id": [ "4" ],
+        "x-ms-client-request-id": [ "78b0d7be-6c81-4fbc-b5bd-9611861f0fda" ],
+        "CommandName": [ "New-AzServiceGroup" ],
+        "FullCommandName": [ "New-AzServiceGroup_CreateExpanded" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.24", "Az.ServiceGroup/0.1.0" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-operation-identifier": [ "" ],
+        "client-request-id": [ "70dd9ae8-eb48-4379-a849-db6fc7ac0cb6" ],
+        "Request-Id": [ "70dd9ae8-eb48-4379-a849-db6fc7ac0cb6" ],
+        "x-ba-restapi": [ "2.2025.0227.3" ],
+        "x-ms-request-id": [ "centralus:70dd9ae8-eb48-4379-a849-db6fc7ac0cb6" ],
+        "x-ms-ratelimit-remaining-tenant-reads": [ "1099" ],
+        "x-ms-correlation-request-id": [ "70dd9ae8-eb48-4379-a849-db6fc7ac0cb6" ],
+        "x-ms-routing-request-id": [ "CENTRALUS:20250228T182042Z:70dd9ae8-eb48-4379-a849-db6fc7ac0cb6" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 88BEB5CB64AA4B78BBBE4759ACA44E44 Ref B: CO6AA3150217023 Ref C: 2025-02-28T18:20:39Z" ],
+        "Date": [ "Fri, 28 Feb 2025 18:20:41 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "346" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/providers/Microsoft.Management/serviceGroups/cmdletServiceGroup\",\"type\":\"Microsoft.Management/serviceGroups\",\"name\":\"cmdletServiceGroup\",\"kind\":\"\",\"properties\":{\"displayName\":\"cmdletServiceGroup\",\"parent\":{\"resourceId\":\"/providers/Microsoft.Management/serviceGroups/94430a9c-83e9-4f08-bbb0-64fccd0661fc\"},\"provisioningState\":\"Succeeded\"}}",
+      "isContentBase64": false
+    }
+  }
+}
